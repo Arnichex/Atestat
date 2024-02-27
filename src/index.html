@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorbike Store - Home</title>
+    <link rel="stylesheet" href="./Styles/home.scss">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+</head>
+
+    
+    
+
+    <body>
+        <header>
+            <h1> Ebaza Motorbike Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div id="motorbikes">
+            <!-- Motorbike 1 -->
+            <div class="motorbike">
+                <!-- Link for the image -->
+                <a href="https://www.motofichas.com/marcas/honda/cbr500r">
+                    <img src="https://www.motofichas.com/images/phocagallery/Honda/cbr500r-2024/11-honda-cbr500r-2024-estudio-negro-01.jpg" alt="Motorbike 1">
+                </a>
+                <!-- Motorbike content -->
+                <h3>Honda cbr500r</h3>
+                <p>Price : $7.400</p>
+                <!-- Details button -->
+                <button class="details-button" onclick="showDetails('motorbike1')">Details</button>
+            </div>
+    
+            <!-- Motorbike 2 -->
+            <div class="motorbike">
+                <a href="https://www.motofichas.com/marcas/yamaha/r6-race">
+                    <img src="https://www.motofichas.com/images/cache/001-yamaha-yzf-r6-race-2022-estudio-negro-739-a.jpg" alt="Motorbike 2">
+                </a>
+                <h3>yamaha r6-race</h3>
+                <p>Price : $14.099</p>
+                <button class="details-button" onclick="showDetails('motorbike2')">Details</button>
+            </div>
+    
+            <!-- Motorbike 3 -->
+            <div class="motorbike">
+                <a href="https://www.motofichas.com/marcas/yamaha/yzf-r7">
+                    <img src="https://www.motofichas.com/images/phocagallery/Yamaha_Motor_Corporation/yzf-r7/06-yamaha-yzf-r7-2022-estudio-negro.jpg" alt="Motorbike 3">
+                </a>
+                <h3>yamaha yzf-r7</h3>
+                <p>Price : $9.799</p>
+                <button class="details-button" onclick="showDetails('motorbike3')">Details</button>
+            </div>
+    
+            <!-- Repeat the pattern for every motorbike -->
+        </div>
+
+    <script src="Scripts/scripts.js"></script>
+</body>
+</html>
